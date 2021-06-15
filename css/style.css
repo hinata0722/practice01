@@ -1,6 +1,6 @@
 @charset "utf-8";
-header {
-  font-family: 'Roboto', sans-serif;
+.wrap {
+	overflow: hidden;
 }
 .headerContainer {
   display: flex;
@@ -8,6 +8,10 @@ header {
   margin-right: 120px;
   margin-left: 120px;
   height: 74px;
+}
+.mainContainer {
+  margin-right: 205px;
+  margin-left: 205px;
 }
 .menu {
   list-style: none;
