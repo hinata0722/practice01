@@ -1,0 +1,37 @@
+@charset "utf-8";
+header {
+  font-family: 'Roboto', sans-serif;
+}
+.headerContainer {
+  display: flex;
+  justify-content:space-between;
+  margin-right: 120px;
+  margin-left: 120px;
+  height: 74px;
+}
+.menu {
+  list-style: none;
+}
+h1 {
+  font-size: 26px;
+  padding-top: 24px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  font-size: 16px;
+  padding: 29px 20px 26px;
+}
+.topImage {
+  position: relative;
+}
+.titleBox {
+  font-size: 50px;
+  color: white;
+  padding: 35px 42px 34px 42px;
+  border: 1px solid white;
+  position: absolute;
+  top: 302px;
+  left: 496px;
+}
