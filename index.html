@@ -10,6 +10,7 @@
     <!-- 具体的なスタイルをstyle.cssに記述 -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Fontの読み込み -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="wrap">
@@ -40,7 +41,7 @@
           </h2>
           <h3>
             ミニマルで<br>
-            洗練されたデザイン
+            洗練されたデザインを。
           </h3>
           <p>
             近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。
@@ -48,52 +49,89 @@
           <h2>
             Service
           </h2>
-          <div>
+          <div class="serviceContents">
             <img src="img/service-image@2x.jpg" alt="カメラ">
-            <h3>
-              リリース時のサポートで<br>
-              サービスのブランディングを
-            </h3>
-            <p>
-              弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。
-            </p>
+            <div class="serviceComment01">
+              <h3>
+                リリース時のサポートで<br>
+                サービスのブランディングを
+              </h3>
+              <p>
+                弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。
+              </p>
+            </div>
           </div>
-          <div>
-            <h3>
-              リリース後のサポートで<br>
-              効果を最大化させる
-          </h3>
-          <p>
-            弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。
-          </p>
-          <img src="img/service-image02@2x.jpg" alt="スマートフォン">
+          <div class="serviceContents">
+            <div class="serviceComment02">
+              <h3>
+                リリース後のサポートで<br>
+                効果を最大化させる
+              </h3>
+              <p>
+                弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。
+              </p>
+            </div>
+            <img src="img/service-image02@2x.jpg" alt="スマートフォン">
         </div>
         <h2>
           News
         </h2>
-        <div>
-          <div>
-            <img src="img/card-image1@2x.jpg" alt="ガジェット">
-            <p>
+        <ul class="cardList">
+          <li class="cardItem">
+            <div class="cardImg">
+              <img src="img/card-image1@2x.jpg" alt="ガジェット">
+            </div>
+            <p class="textNews">
               新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
             </p>
-          </div>
-          <div>
-            <img src="img/card-image2@2x.jpg" alt="スマートフォン">
-            <p>
+          </li>  
+          <li class="cardItem">
+            <div class="cardImg">
+              <img src="img/card-image2@2x.jpg" alt="ガジェット">
+            </div>
+            <p class="textNews">
               新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
             </p>
-          </div>
-          <div>
-            <img src="img/card-image3@2x.jpg" alt="パソコン">
-            <p>
+          </li>  
+          <li class="cardItem">
+            <div class="cardImg">
+              <img src="img/card-image3@2x.jpg" alt="ガジェット">
+            </div>
+            <p class="textNews">
               新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。
             </p>
-          </div>
-        </div>
+          </li>  
+        </ul>
       </div>
     </section>
+    <section>
+      <h2>
+        お問い合わせ
+      </h2>
+      <div class="formContainer">
+        <form action="">
+          <div class="formPart">
+            <label for="">担当者名</label>
+            <input type="text">
+          </div>
+          <div class="formPart">
+          <label for="">電話番号</label>
+          <input type="text">
+        </div>
+        <div class="formPart">
+          <label for="">メールアドレス</label>
+          <input type="text">
+        </div>
+        <div class="formPart">
+          <label for="">お問い合わせ内容</label>
+          <textarea id="story" name="story"rows="5" cols="33"></textarea>
+        </div>
+          <div class="formSend">
+            <input type="submit" value="送信" class="formBtn">
+          </div>
+      </form>
     </div>
+    </section>
   </body>
   </html>
   
